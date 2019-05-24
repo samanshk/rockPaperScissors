@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper & Scissors</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="game">
+        
+        <div class="score fadeOut">
+            <div class="player-score">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1 class="animated flipInX slow">Rock Paper and Scissors</h1>
+            <button class="animated infinite tada slow">Let's play</button>
+        </div>
+
+        <div class="match fadeOut">
+            <h2 class="winner">Choose an option</h2>
+            <div class="hands">
+                <img class="player-hand" src="./assets/Rock.png" alt="Player">
+                <img class="computer-hand" src="./assets/Rock.png" alt="Computer">
+            </div>
+
+            <div class="options">
+                <button class="rock">Rock</button>        
+                <button class="paper">Paper</button>
+                <button class="scissors">Scissors</button>
+            </div>
+        </div>
+
+        
+
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
